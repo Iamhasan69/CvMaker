@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height:40em;
+    width:auto;
+    background-color: black;
+}
+.text-container{
+    height:15em;
+    background-color:blue;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family:serif;
+    font-size: 5em;
+    color: aliceblue;
+}
