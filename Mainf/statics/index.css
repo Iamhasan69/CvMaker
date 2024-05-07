@@ -7,7 +7,7 @@
 .container{
     height:40em;
     width:auto;
-    background-color: black;
+    background-color:white;
 }
 .text-container{
     height:15em;
@@ -21,4 +21,29 @@ p{
     font-family:serif;
     font-size: 5em;
     color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:20px;
+    
+}
+button{
+    height: 3em;
+    width: 8em;
+    overflow: hidden;
+    text-align: center;
+    background-color: blue;
+    border-color: aliceblue;
+    margin-top: 2em;
+    margin-right: 5em;
+    cursor: pointer;
+}
+.button-container{
+    height: 10em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
