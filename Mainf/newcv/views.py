@@ -8,7 +8,9 @@ def Newcv(request):
         form = CVFORM(request.POST)
         # check validation
         if form.is_valid():
-            return HttpResponse("thank you")
+            skills = form.cleaned_data["email_info"]
+
+            return HttpResponse(skills)
     else:
         form = CVFORM()
     return render(request, "new_cv_form.html", {'form' : form})    
