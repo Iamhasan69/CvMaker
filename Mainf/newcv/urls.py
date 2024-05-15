@@ -3,7 +3,7 @@ from newcv import views
 
 
 urlpatterns = [
-    path('newcv/', views.Newcv, name='NEWCV')
+    path('newcv/', views.Newcv.as_view(), name='NEWCV')
 ]
 
 
