@@ -27,7 +27,8 @@ class Newcv(View):
         if form.is_valid():
             email = form.cleaned_data["email_info"]
             return HttpResponse(email)
-        
+    def cvinfor(self, name):
+        pass   
 
 
         
