@@ -28,7 +28,7 @@ class Newcv(View):
             email = form.cleaned_data["email_info"]
             return HttpResponse(email)
     def cvinfor(self, name):
-        pass   
+        return Http response(name)
 
 
         
